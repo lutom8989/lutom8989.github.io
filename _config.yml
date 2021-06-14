@@ -2,7 +2,11 @@
 # Jekyll & Global Configuration
 ## Docs: https://jekyllrb.com/docs/configuration/
 # ---------------------------------------------------------------
-
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 # Site
 title: Bluebase001
 subtitle: read world
